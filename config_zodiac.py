@@ -81,8 +81,8 @@ LLM_CONFIGURATIONS = {
         "presence_penalty": 0,
         "temperature": 1,
         "top_p": 1,
-        "price_input_token_1M":0.150,
-        "price_output_token_1M":.600
+        "price_input_token_1M":0.50,
+        "price_output_token_1M":1.50
     },
     "gpt-4-turbo": {
         "model": "gpt-4-turbo",
@@ -163,3 +163,5 @@ DISPLAY_COST = True
 
 COMPLETION_MESSAGE = "You've reached the end! I hope you learned something!"
 COMPLETION_CELEBRATION = False
+
+Text to speech button
